@@ -1,0 +1,128 @@
+#html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Web Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Web Page</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to My Website</h2>
+    <p>This is a simple and clean web page layout using HTML and CSS.</p>
+    <a href="#" class="btn">Learn More</a>
+  </section>
+
+  <section class="content">
+    <div class="box">
+      <h3>Fast</h3>
+      <p>Loads quickly and works on all devices.</p>
+    </div>
+    <div class="box">
+      <h3>Responsive</h3>
+      <p>Looks great on phones, tablets, and desktops.</p>
+    </div>
+    <div class="box">
+      <h3>Modern</h3>
+      <p>Built with clean and modern design practices.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Web Page. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+#css
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #0078d4;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero .btn {
+  background-color: white;
+  color: #0078d4;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background-color: white;
+}
+
+.box {
+  background-color: #eaeaea;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
